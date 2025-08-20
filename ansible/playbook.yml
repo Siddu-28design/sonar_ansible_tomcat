@@ -4,7 +4,7 @@
   tasks:
     - name: Copy WAR to Tomcat
       copy:
-        src: C:\ProgramData\Jenkins\.jenkins\workspace\sonar-jenkins-ansi\Amazon-Web\target\Amazon.war
+        src: /var/lib/jenkins/workspace/sonar-jenkins-ansi/Amazon-Web/target/Amazon.war
         dest: /home/siddu/tomcat/Tomcat/webapps
         mode: '0644'
         remote_src: yes
