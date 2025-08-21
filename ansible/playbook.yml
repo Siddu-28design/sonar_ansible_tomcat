@@ -11,8 +11,8 @@
 
     - name: Make Tomcat startup script executable
       file:
-        path: "/home/siddu/tomcat/Tomcat/bin/startup.sh"
+        path: "/home/siddu/Tomcat/bin/startup.sh"
         mode: '0755'
 
     - name: Start Tomcat
-      shell: /home/siddu/tomcat/Tomcat/bin/startup.sh
+      shell: /home/siddu/Tomcat/bin/startup.sh
